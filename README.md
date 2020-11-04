@@ -41,6 +41,9 @@ Using rect() to draw text to the Canvas
 - `printArray(fontList);`
 
 ## Gamification or Rubric or Points
+- [1 point] Able to see text in the Canvas
+- [1 point] Text visually pleasing
+- [1 point] `text()` contains `rect()` parameters
 
 ## Additional Information to Answer Questions
 - Other Text Functions: Search Typography in Processing Reference
@@ -50,7 +53,7 @@ Using rect() to draw text to the Canvas
 - Foreground-Background is remnant of printing press block letters
 
 ## Extensions
-
+- TBA
 
 ---
 
