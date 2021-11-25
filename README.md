@@ -2,6 +2,8 @@
 Using rect() to draw text to the Canvas
 
 **Purpose**: Text is difficult to draw in a Processing-JAVA Canvas so rect() attempts to simplify it
+- This lesson will teach minimum code for "text"
+- See Home Screen 3x3 Project, "Do this Not That" for how to split the minimum code into chucks (intro procedural programming)
 - Will lead to a text-size auto calculator algorithm in Intermediate CS
 
 ## Questions
