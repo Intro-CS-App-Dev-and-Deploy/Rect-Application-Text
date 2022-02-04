@@ -2,7 +2,7 @@
 int titleX, titleY, titleWidth, titleHeight;
 String title = "Wahoo!";
 PFont titleFont;
-color purple = #2C08FF; //Not mice for Night Mode
+color purple = #2C08FF; //Not nice for Night Mode
 color white = #FFFFFF;
 //
 //Display Geomtery
