@@ -3,7 +3,7 @@ int titleX, titleY, titleWidth, titleHeight;
 String title = "Wahoo!";
 PFont titleFont;
 color purple = #2C08FF; //Not nice for Night Mode
-color white = #FFFFFF;
+color resetDefaultInk = white = #FFFFFF;
 //
 //Display Geomtery
 size(500, 600); //fullScreen(); //displayWidth & displayHeight
@@ -32,5 +32,5 @@ textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
 textFont(titleFont, 50); //Change the number until it fits, largest font size
 //textFont() has option to combine font declaration with textSize()
 text(title, titleX, titleY, titleWidth, titleHeight);
-fill(white); //reset
+fill(resetDefaultInk); //reset
 //Space for more rectangles below, with reset values
