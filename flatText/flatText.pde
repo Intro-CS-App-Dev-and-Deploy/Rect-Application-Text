@@ -20,7 +20,7 @@ titleFont = createFont ("Harrington", 55); //Verify font exists
 //Populating Variables
 titleX = width*1/5;
 titleY = height*1/10;
-titleWidth = width*3/5;
+titleWidth = width*3/5; //Rect ends at 4/5's of width
 titleHeight = height*1/10;
 //
 //Laying out text space and tyopgraphical Features
