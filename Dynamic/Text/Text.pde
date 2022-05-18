@@ -3,6 +3,7 @@ String title = "Wahoo!";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titleFont;
 color purple=#2C08FF, resetDefaultInk=#FFFFFF;
+int size;
 //
 void setup()
 {
@@ -30,7 +31,8 @@ void draw()
   fill(purple); //Ink, hexidecimal copied from Color Selector
   textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
   //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-  textFont(titleFont, 50); //Change the number until it fits
+  size = 50; //Change the number until it fits
+  textFont(titleFont, 50); 
   text(title, titleX, titleY, titleWidth, titleHeight);
   fill(resetDefaultInk);
 }//End draw
