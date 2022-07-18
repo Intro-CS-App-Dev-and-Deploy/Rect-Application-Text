@@ -2,7 +2,7 @@
 String title = "Wahoo!";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titleFont;
-color purple=#2C08FF, resetDefaultInk=#FFFFFF;
+color purple=#2C08FF, resetDefaultInk=#FFFFFF; //not nightMode friendly
 int size;
 //
 void setup()
