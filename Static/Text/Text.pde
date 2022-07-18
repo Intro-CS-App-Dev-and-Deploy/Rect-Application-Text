@@ -12,6 +12,7 @@ titleY = height*1/10;
 titleWidth = width*3/5; //Rect ends at 4/5's of width
 titleHeight = height*1/10; //Rect ends at 2/10's of height
 //
+//Single Executed Code
 //Fonts from OS (Operating System)
 // String[] fontList = PFont.list(); //To list all fonts available on OS
 //printArray(fontList); //For listing all possible fonts to choose from, then createFont
@@ -20,6 +21,8 @@ titleFont = createFont("Harrington", 55); //Verify the font exists in Processing
 //
 //Layout our text space and typographical features
 rect(titleX, titleY, titleWidth, titleHeight);
+//
+//Repeatedly Executed Code
 //Drawing Text
 fill(purple); //Ink, hexidecimal copied from Color Selector
 textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
