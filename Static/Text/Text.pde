@@ -6,6 +6,8 @@ int size;
 //
 //Display Geometry, Display orientation: landscape, portrait, or square
 size (500, 600); //fullScreen(); //displayWidth & displayHeight
+//Copy Display Alogithm
+//
 //Population
 titleX = width*1/5;
 titleY = height*1/10;
